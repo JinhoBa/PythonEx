@@ -22,7 +22,7 @@ lst.insert(0,'샌드위치')
 lst.append('탕수육')
 lst.append('탕수육')
 lst.append('탕수육')
-'''
+
 print(lst)
 print('list에서 3번째에 있는 값 : ',lst[2])
 for i in range(len(lst)):
@@ -107,7 +107,7 @@ l8 = [i**2 for i in range(0,11,2)]
 print(l8)
 l9 = [i**2 for i in range(11) if i % 2 == 0 if i % 3 == 0]
 print(l9)
-'''
+
 #중요 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-------------------------------
 # list 복사
 a = [0,4,16,36,64,100]
