@@ -1,5 +1,5 @@
 ##0419
-'''
+
 l1 = [1,2,3,4]
 # tuple 항목의 순서나 내용의 수정이 불가능, 괄호 생략 가능
 t1 = (1,2,3,42,2,3,4,5,6,2)
@@ -119,7 +119,7 @@ print(dict(z2))
 l4 = ['제육','탕수육','연어초밥']
 print(type(enumerate(l4)))
 print(list(enumerate(l4)))
-'''
+
 # 문제  
 # 과목을 주면 강의실을 알려주는 함수
 # 1) dictionary로 변환해서 활용
@@ -130,7 +130,7 @@ print(list(enumerate(l4)))
 subject = ['파이썬','자바','C++','AI','알고리즘']
 classroom = [101,102,103,104,105]
 d1 = dict(zip(subject,classroom))
-'''
+
 while True:
     n = (input('과목명을 입력하세요 >> '))
     if n == 'quit':   # quit 입력 확인
@@ -144,7 +144,7 @@ while True:
     if count == 0:
         print('몰라요~')
         continue
-'''
+
 while True:
     n = (input('과목명을 입력하세요 >> '))
     if n == 'quit':   # quit 입력 확인
