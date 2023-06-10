@@ -2,7 +2,7 @@
 
 # dictionary
 # 인덱스가 아니라 키값을 이용
-'''
+
 carDict = {'h101':('2020','1600'), 'h102':('1568','5268'),
            'b102':('8745','9456'),'b105':('6666','5784')}
 
@@ -85,7 +85,7 @@ sum_list1 = list(map(sum,list2,list3))
 sum_list = list(map(lambda x,y : x+y,list2,list3))
 print(sum_list1)
 print(sum_list)
-'''
+
 import random
 from random import randint as rn
 
